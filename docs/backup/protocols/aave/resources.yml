@@ -1,0 +1,13 @@
+name: 0xProtocol
+coin: zrx
+code: https://github.com/0xProject
+indicator: 
+  - code: 4
+  - tools: 4
+  - conception: 3
+repos: 
+  - https://github.com/ctrl030/AAVE_Liquidation_Protection_Bot.git
+  - https://github.com/untitledH/marketmake2021.git
+  - https://github.com/ialberquilla/aave-liquidation.git
+  - https://github.com/damarnez/aave_simulator.git
+  - https://github.com/johngrantuk/aaveFlashLoan.git

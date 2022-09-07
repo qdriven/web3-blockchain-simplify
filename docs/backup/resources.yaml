@@ -1,0 +1,31 @@
+repo-org:
+  - https://github.com/EthWorks
+  - https://github.com/bcnmy
+  - https://github.com/Tenderly
+  - https://github.com/graphprotocol
+  - https://github.com/starkware-libs
+projects:
+  - https://medium.com/biconomy
+  - https://docs.tenderly.co/
+  - https://techcrunch.com/
+tpocis:
+  - https://github.com/topics/ethereum
+jobs:
+  - https://gitcoin.co/onboard/contributor
+manual:
+  - https://cairo-lang.org/docs/hello_starknet/
+
+open-data:
+  - https://github.com/ConcourseOpen/DeFi-Pulse-Adapters
+
+tools:
+  - https://github.com/minmax-gg/supersea
+
+podcast:
+  - https://www.bcast.fm/blog/best-web3-podcasts
+
+IoT:
+  - Ambrosius, Modum.io, IOTA, Atonomi
+
+medium:
+  - https://medium.com/@bsnbase

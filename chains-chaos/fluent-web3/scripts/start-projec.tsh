@@ -1,0 +1,1 @@
+pnpm create vite tschainlibs -- --template vanilla-ts

@@ -1,0 +1,55 @@
+sites: 
+  - https://hackerlink.io/Grant/BSC/Round/1/buidl
+  - https://ethglobal.co/
+ 
+repos:
+  - https://github.com/gelatodigital/gelato-network
+  - https://github.com/tomochain
+  - https://github.com/open-dex/boomflow
+  - https://github.com/centfinance
+  - https://github.com/ConcourseOpen
+  - https://github.com/hifi-finance
+  - https://github.com/freight-trust
+  - https://github.com/EthereumDeveloperAlliance/defi-encode
+  - https://github.com/dkazenoff/atlas-frontend
+  - https://github.com/octofi/octofi-app-aquafarm
+  - https://github.com/Tadpole-finance
+  - https://github.com/byteball/bonded-stablecoin-ui
+  - https://github.com/aschmidt20/LiquidYield
+  - https://github.com/YutaSugimura/DeFi-Map
+  - https://github.com/BlazarDeFi
+  - https://github.com/merwane/ethereum-api-technical-challenge
+  - https://github.com/vmieres/CryptoPuppies_Marketplace
+  - https://github.com/aschmidt20
+  - https://github.com/MetaMask
+  - https://github.com/austintgriffith/scaffold-eth
+content:
+  - https://matataki.io/article
+
+exchange:
+  - https://github.com/hzjken/crypto-arbitrage-framework
+  - https://github.com/jjxtra/ExchangeSharp
+  - https://github.com/wardbradt/peregrine
+  - https://github.com/nicholashc/uniswap-skim
+  - https://github.com/Uniswap
+  - https://github.com/shanefontaine/uniswap-python
+  - https://github.com/ccyanxyz/uniswap-arbitrage-analysis
+  - https://github.com/Austin-Williams/uniswap-flash-swapper
+  - https://github.com/sigillabs/mobidex
+  - https://github.com/gelatodigital/gelato-uniswap
+  - https://www.coygo.app/api.html
+  - https://github.com/executium
+  - https://github.com/linuxluigi/django-crypto-trading-bot
+
+flashloan: 
+  - https://github.com/Austin-Williams
+  - https://github.com/achiko/
+
+person:
+  - https://github.com/jordanlyall
+  - https://github.com/horizontalsystems
+  - https://github.com/atanasster
+notes:
+  - https://defitoday.com/0x-is-the-most-underestimated-project-in-defi-heres-why/
+news:
+  - https://www.publish0x.com/
