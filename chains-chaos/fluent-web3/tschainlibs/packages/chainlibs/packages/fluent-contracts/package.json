@@ -1,7 +1,0 @@
-{
-  "name": "fluent-contracts",
-  "version": "0.0.1",
-  "scripts": {
-    "chain": "cross-env BUILDING=true hardhat node --network hardhat --no-deploy"
-  }
-}

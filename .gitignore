@@ -2,3 +2,6 @@ chains-data/
 .data/
 ultimate-defi-research-base/
 DeFi-Developer-Road-Map/
+chains-chaos/
+web3-demos/
+.DS_store
