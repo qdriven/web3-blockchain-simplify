@@ -4,18 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "4e366c4d1ae630b7",
+        "id": "495599b098cb3d7b",
         "type": "tabs",
         "children": [
           {
-            "id": "7a7ff48367ae33a0",
+            "id": "a5ece6353a20e28d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "web3/did/RNS 创建ID.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d28a4d372a5a8f3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "web3/airdrop/arbitrum airdrop.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "705f6bf434e07b29",
@@ -81,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "web3/airdrop/arbitrum airdrop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "web3/airdrop/arbitrum airdrop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "web3/airdrop/arbitrum airdrop.md"
+              }
             }
           }
         ]
@@ -131,6 +152,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "7a7ff48367ae33a0",
-  "lastOpenFiles": []
+  "active": "d28a4d372a5a8f3a",
+  "lastOpenFiles": [
+    "web3/did/RNS 创建ID.md",
+    "web3/did/login.png",
+    "web3/did/access-rns.png",
+    "engergy/Energy Web.md",
+    "TODOList.md",
+    "backup/ee-blockchain.md",
+    "backup/web3/tech/decoding-smart-contract.md",
+    "backup/web3/nft/nft.md",
+    "backup/web3/carbon_accounting/intro.md",
+    "backup/web3/carbon_accounting/2022-08-02-16-57-03.png"
+  ]
 }
