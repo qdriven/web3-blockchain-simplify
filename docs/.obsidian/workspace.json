@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "495599b098cb3d7b",
+        "id": "556174f4be225ed3",
         "type": "tabs",
         "children": [
           {
-            "id": "a5ece6353a20e28d",
+            "id": "16cd90757f35d415",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "web3/did/RNS 创建ID.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d28a4d372a5a8f3a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "web3/airdrop/arbitrum airdrop.md",
+                "file": "engergy/Energy Web.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "web3/airdrop/arbitrum airdrop.md",
+                "file": "engergy/Energy Web.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "web3/airdrop/arbitrum airdrop.md",
+                "file": "engergy/Energy Web.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "web3/airdrop/arbitrum airdrop.md"
+                "file": "engergy/Energy Web.md"
               }
             }
           }
@@ -149,20 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "d28a4d372a5a8f3a",
+  "active": "16cd90757f35d415",
   "lastOpenFiles": [
+    "engergy/flowcarbon.md",
+    "engergy/Energy Web.md",
     "web3/did/RNS 创建ID.md",
+    "TODOList.md",
+    "web3/did/palau-id-1.png",
+    "web3/airdrop/arbitrum airdrop.md",
     "web3/did/login.png",
     "web3/did/access-rns.png",
-    "engergy/Energy Web.md",
-    "TODOList.md",
     "backup/ee-blockchain.md",
-    "backup/web3/tech/decoding-smart-contract.md",
-    "backup/web3/nft/nft.md",
-    "backup/web3/carbon_accounting/intro.md",
-    "backup/web3/carbon_accounting/2022-08-02-16-57-03.png"
+    "backup/web3/tech/decoding-smart-contract.md"
   ]
 }
