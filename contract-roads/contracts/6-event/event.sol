@@ -14,7 +14,7 @@ contract Events {
     // 定义Transfer event，记录transfer交易的转账地址，接收地址和转账数量
     event Transfer(address indexed from, address indexed to, uint256 value);
 
-  event Log(address indexed sender, string message);
+    event Log(address indexed sender, string message);
     event AnotherLog();
 
     function test() public {
