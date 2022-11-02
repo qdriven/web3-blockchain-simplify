@@ -11,3 +11,8 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.ts
 ```
+
+## Refernces
+
+- https://solidity-by-example.org/
+- https://github.com/t4sk

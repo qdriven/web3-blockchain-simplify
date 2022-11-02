@@ -1,5 +1,12 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
+/**
+ * Events allow logging to the Ethereum blockchain. Some use cases for events are:
+
+Listening for events and updating user interface
+A cheap form of storage
+
+ */
 contract Events {
     // 定义_balances映射变量，记录每个地址的持币数量
     mapping(address => uint256) public _balances;
@@ -7,7 +14,14 @@ contract Events {
     // 定义Transfer event，记录transfer交易的转账地址，接收地址和转账数量
     event Transfer(address indexed from, address indexed to, uint256 value);
 
+  event Log(address indexed sender, string message);
+    event AnotherLog();
 
+    function test() public {
+        emit Log(msg.sender, "Hello World!");
+        emit Log(msg.sender, "Hello EVM!");
+        emit AnotherLog();
+    }
     // 定义_transfer函数，执行转账逻辑
     function _transfer(
         address from,
