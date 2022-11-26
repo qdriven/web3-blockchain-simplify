@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "45cdfe46d8b8467a",
+        "id": "fcd6d10ddc9d2c72",
         "type": "tabs",
         "children": [
           {
-            "id": "80f4d34e088b3eeb",
+            "id": "9f7d1ad1feb425e1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "engergy/ewt/Energy Web.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 380.5
+    "width": 210.5
   },
   "right": {
     "id": "705f6bf434e07b29",
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "engergy/ewt/Energy Web.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "engergy/ewt/Energy Web.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "engergy/ewt/Energy Web.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -136,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "80f4d34e088b3eeb",
+  "active": "9f7d1ad1feb425e1",
   "lastOpenFiles": [
-    "green-charing.png",
     "engergy/ewt/Energy Web.md",
+    "engergy/greenbond/HK Greenbonds 调研.md",
+    "green-charing.png",
     "engergy/ewt/application-sdk.png",
     "engergy/ewt/did.png",
     "engergy/rec.png",
     "engergy/ewt/issue-process.png",
     "engergy/ewt/ew-dos-techstack.png",
     "engergy/ewt/flowcarbon.md",
-    "web3/did/RNS 创建ID.md",
-    "TODOList.md"
+    "web3/did/RNS 创建ID.md"
   ]
 }
