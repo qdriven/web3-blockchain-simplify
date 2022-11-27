@@ -1,0 +1,24 @@
+{
+    "script": {
+        "preinstall": "npx only-allow pnpm",
+        "lint": "eslint packages/*/{src,types,__tests__}/** playground/**/__tests__/**/*.ts scripts/**"
+    },
+    "lint-staged": {
+        "*": [
+            "prettier --write --ignore-unknown"
+        ],
+        "packages/*/{src,types}/**/*.ts": [
+            "eslint --fix"
+        ],
+        "packages/**/*.d.ts": [
+            "eslint --fix"
+        ],
+        "playground/**/__tests__/**/*.ts": [
+            "eslint --fix"
+        ]
+    },
+    "simple-git-hooks": {
+        "pre-commit": "pnpm exec lint-staged --concurrent false",
+        "commit-msg": "pnpm exec esno scripts/verifyCommit.ts $1"
+    }
+}
