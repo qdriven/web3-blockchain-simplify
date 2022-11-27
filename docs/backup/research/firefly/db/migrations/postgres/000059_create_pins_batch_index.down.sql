@@ -1,3 +1,0 @@
-BEGIN;
-DROP INDEX pins_batch;
-COMMIT;

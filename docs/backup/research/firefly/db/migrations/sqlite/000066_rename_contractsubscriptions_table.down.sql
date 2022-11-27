@@ -1,1 +1,0 @@
-ALTER TABLE contractlisteners RENAME TO contractsubscriptions;

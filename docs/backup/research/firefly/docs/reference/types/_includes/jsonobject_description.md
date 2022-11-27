@@ -1,1 +1,0 @@
-Any JSON Object. Must be an object, rather than an array or a simple type.

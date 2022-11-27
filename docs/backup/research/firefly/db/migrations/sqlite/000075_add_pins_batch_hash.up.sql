@@ -1,1 +1,0 @@
-ALTER TABLE pins ADD COLUMN batch_hash VARCHAR(64);

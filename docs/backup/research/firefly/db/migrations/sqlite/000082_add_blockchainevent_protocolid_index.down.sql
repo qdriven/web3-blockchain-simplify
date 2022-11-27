@@ -1,1 +1,0 @@
-DROP INDEX blockchainevents_protocolid;

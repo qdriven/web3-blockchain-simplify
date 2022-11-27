@@ -1,3 +1,0 @@
-BEGIN;
-ALTER TABLE batches DROP COLUMN node_id;
-COMMIT;

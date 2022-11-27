@@ -1,4 +1,0 @@
-BEGIN;
-DELETE FROM tokenpool;
-ALTER TABLE tokenpool ADD COLUMN created BIGINT NOT NULL;
-COMMIT;
