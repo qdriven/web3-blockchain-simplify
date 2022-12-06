@@ -1,3 +1,4 @@
+pragma solidity >=0.8
 
 contract DexDemo{
     struct Token{
@@ -8,7 +9,6 @@ contract DexDemo{
     mapping(bytes32=>Token) public tokens;
     bytes32[] public tokenList;
     mapping(address=>mapping(bytes32=>uint)) public traderBalances;
-
     constructor() public {
         admin=msg.sender;
     }

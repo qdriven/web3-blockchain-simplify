@@ -3,6 +3,8 @@
 A monorepo boilerplate code for typesafe full-stack [Solidity](https://soliditylang.org/) development.
 
 ## Contents
+- [full-stack dApp starter for solidity smart contract development](#full-stack-dapp-starter-for-solidity-smart-contract-development)
+  - [Contents](#contents)
   - [Prerequisites](#prerequisites)
   - [Features](#features)
   - [Run in Gitpod](#run-in-gitpod)
@@ -10,6 +12,7 @@ A monorepo boilerplate code for typesafe full-stack [Solidity](https://solidityl
   - [Build For Production](#build-for-production)
   - [Acknowledgements](#acknowledgements)
   - [License](#license)
+  - [Reference](#reference)
 
 ## Prerequisites
 
