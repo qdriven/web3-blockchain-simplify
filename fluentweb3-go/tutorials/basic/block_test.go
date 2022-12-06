@@ -9,16 +9,6 @@ import (
 	"testing"
 )
 
-https://goethereumbook.org/transfer-tokens/
-import (
-	"context"
-	"fmt"
-	"github.com/ethereum/go-ethereum/common"
-	"log"
-	"math/big"
-	"testing"
-)
-
 func TestGetBlock(t *testing.T) {
 	//client, err := ethclient.Dial("/home/user/.ethereum/geth.ipc")
 	header, err := client.HeaderByNumber(context.Background(), nil)
