@@ -2,8 +2,7 @@
   "name": "fluent-contracts",
   "version": "0.0.1",
   "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
-    "hardhat": "^2.12.3",
+    "@chainlink/contracts": "^0.5.1",
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
     "@ethersproject/abi": "^5.7.0",
@@ -13,6 +12,7 @@
     "@ethersproject/providers": "^5.7.2",
     "@nomicfoundation/hardhat-chai-matchers": "^1.0.4",
     "@nomicfoundation/hardhat-network-helpers": "^1.0.6",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
     "@nomiclabs/hardhat-ethers": "^2.2.1",
     "@nomiclabs/hardhat-etherscan": "^3.1.2",
     "@trivago/prettier-plugin-sort-imports": "^4.0.0",
@@ -33,6 +33,7 @@
     "eslint-config-prettier": "^8.5.0",
     "ethers": "^5.7.2",
     "fs-extra": "^10.1.0",
+    "hardhat": "^2.12.3",
     "hardhat-gas-reporter": "^1.0.9",
     "husky": "^8.0.2",
     "lint-staged": "^13.0.4",
@@ -48,7 +49,9 @@
     "ts-generator": "^0.1.1",
     "ts-node": "^10.9.1",
     "typechain": "^8.1.1",
-    "typescript": "^4.9.3"
+    "typescript": "^4.9.3",
+    "ethereum-waffle": "^3.4.4",
+    "hardhat-deploy": "^0.11.19"
   },
   "scripts": {
     "clean": "shx rm -rf ./artifacts ./cache ./coverage ./types ./coverage.json && yarn typechain",
@@ -63,8 +66,8 @@
     "fuzzing": "docker run -it --rm -v $PWD:/src trailofbits/eth-security-toolbox",
     "commit": "git-cz",
     "typechain": "cross-env TS_NODE_TRANSPILE_ONLY=true hardhat typechain"
-
-  },  "files": [
+  },
+  "files": [
     "/contracts"
   ]
 }
