@@ -1,4 +1,4 @@
-package scd
+package tutorials
 
 import (
 	"context"
@@ -6,8 +6,8 @@ import (
 	"fluentweb3-go/pkg/address"
 	log "fluentweb3-go/pkg/logger"
 	"fluentweb3-go/pkg/utils"
-	"fluentweb3-go/scd/abi"
-	"fluentweb3-go/scd/contract"
+	"fluentweb3-go/tutorials/abi"
+	"fluentweb3-go/tutorials/contract"
 	"fmt"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
