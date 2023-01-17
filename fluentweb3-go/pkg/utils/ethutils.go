@@ -2,16 +2,15 @@ package utils
 
 import (
 	"encoding/json"
-	"io/ioutil"
-	"reflect"
-	"strings"
-
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/ethclient"
+	"io/ioutil"
+	"reflect"
+	"strings"
 )
 
 // ETransact allows complex transaction info to be assesible if needed, so we dont
@@ -26,7 +25,7 @@ type ETransact struct {
 type EClient struct {
 	conn            bind.ContractBackend //*ethclient.Client
 	auth            *bind.TransactOpts
-	LastTranasction *ETransact
+	LastTransaction *ETransact
 }
 
 func NewEthUtil(dialpath string) (*EClient, error) {
@@ -35,7 +34,7 @@ func NewEthUtil(dialpath string) (*EClient, error) {
 	if err != nil {
 		return nil, err
 	}
-	return &EClient{conn: conn, LastTranasction: &ETransact{}}, err
+	return &EClient{conn: conn, LastTransaction: &ETransact{}}, err
 }
 
 // SetWalletPrivateKey takes in a key string
@@ -82,11 +81,11 @@ func (e *EClient) deployContractSimple(parsed abi.ABI, contractBin string) (*com
 	//	fmt.Printf("Contract pending deploy: 0x%x\n", address)
 	//	fmt.Printf("Transaction waiting to be mined: 0x%x\n\n", tx.Hash())
 	//	fmt.Printf("Contract Object-%v", contract)
-	e.LastTranasction.Address = &address
-	e.LastTranasction.Contract = contract
+	e.LastTransaction.Address = &address
+	e.LastTransaction.Contract = contract
 	h := tx.Hash()
-	e.LastTranasction.TxHash = &h
-	e.LastTranasction.Tx = tx
+	e.LastTransaction.TxHash = &h
+	e.LastTransaction.Tx = tx
 
 	return &address, nil
 }
