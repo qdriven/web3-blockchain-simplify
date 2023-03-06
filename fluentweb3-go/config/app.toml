@@ -1,0 +1,3 @@
+[ws]
+sh_home = "/bin/sh"
+working_dir = "."
