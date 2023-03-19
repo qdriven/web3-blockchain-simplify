@@ -1,1 +1,0 @@
-package io.alpha.configs.protocols;
