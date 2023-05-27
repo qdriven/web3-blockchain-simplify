@@ -1,9 +1,10 @@
-package address
+package wrappers
 
 import (
 	"fmt"
-	"github.com/smartystreets/assertions"
 	"testing"
+
+	"github.com/smartystreets/assertions"
 )
 
 func TestNewWrapperAddress(t *testing.T) {

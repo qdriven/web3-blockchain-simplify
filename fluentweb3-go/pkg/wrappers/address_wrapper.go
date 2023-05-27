@@ -1,13 +1,16 @@
-package address
+package wrappers
 
 import (
+	"context"
 	_crypto "crypto"
 	_ecdsa "crypto/ecdsa"
+	"log"
+	"strings"
+
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/crypto"
-	"log"
-	"strings"
+	"github.com/ethereum/go-ethereum/ethclient"
 )
 
 type WrappedAddress struct {
@@ -82,3 +85,16 @@ func (wa *WrappedAddress) generatePubKeys(privateKey *_ecdsa.PrivateKey) {
 	wa.Address = address
 	wa.AddressStr = addressStr
 }
+
+func IsContractAddress(client ethclient.Client, addrHex string) bool {
+	address := common.HexToAddress(addrHex)
+	bytecode, err := client.CodeAt(context.Background(), address, nil) // nil is latest block
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	isContract := len(bytecode) > 0
+	return isContract
+}
+
+//TODO: contract address and use address convertion
