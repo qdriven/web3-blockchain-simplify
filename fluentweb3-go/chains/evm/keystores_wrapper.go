@@ -1,4 +1,4 @@
-package keystores
+package evm
 
 import (
 	"io/ioutil"

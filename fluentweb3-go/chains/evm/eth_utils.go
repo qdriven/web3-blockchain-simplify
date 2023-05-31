@@ -1,4 +1,4 @@
-package wrappers
+package evm
 
 import (
 	"encoding/json"
@@ -26,7 +26,7 @@ type ETransact struct {
 type EClient struct {
 	conn            bind.ContractBackend //*ethclient.Client
 	auth            *bind.TransactOpts
-	LastTranasction *ETransact
+	LastTransaction *ETransact
 }
 
 func NewEthUtil(dialpath string) (*EClient, error) {
@@ -35,7 +35,7 @@ func NewEthUtil(dialpath string) (*EClient, error) {
 	if err != nil {
 		return nil, err
 	}
-	return &EClient{conn: conn, LastTranasction: &ETransact{}}, err
+	return &EClient{conn: conn, LastTransaction: &ETransact{}}, err
 }
 
 // SetWalletPrivateKey takes in a key string
@@ -64,7 +64,7 @@ func (e *EClient) deployContractSimple(parsed abi.ABI, contractBin string) (*com
 
 	//Default all the parameters
 	for _, i := range inputs {
-		t := reflect.Zero(i.Type.Type)
+		t := reflect.Zero(i.Type.TupleType)
 		v := t.Interface()
 		if t.Kind() == reflect.Ptr && t.IsNil() {
 			elem := reflect.TypeOf(v).Elem()
@@ -82,11 +82,11 @@ func (e *EClient) deployContractSimple(parsed abi.ABI, contractBin string) (*com
 	//	fmt.Printf("Contract pending deploy: 0x%x\n", address)
 	//	fmt.Printf("Transaction waiting to be mined: 0x%x\n\n", tx.Hash())
 	//	fmt.Printf("Contract Object-%v", contract)
-	e.LastTranasction.Address = &address
-	e.LastTranasction.Contract = contract
+	e.LastTransaction.Address = &address
+	e.LastTransaction.Contract = contract
 	h := tx.Hash()
-	e.LastTranasction.TxHash = &h
-	e.LastTranasction.Tx = tx
+	e.LastTransaction.TxHash = &h
+	e.LastTransaction.Tx = tx
 
 	return &address, nil
 }

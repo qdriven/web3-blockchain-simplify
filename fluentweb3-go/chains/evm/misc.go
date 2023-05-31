@@ -1,4 +1,4 @@
-package wrappers
+package evm
 
 import (
 	"fmt"
@@ -9,7 +9,6 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/metachris/go-ethutils/addressdetail"
 )
 
 const (
@@ -112,7 +111,7 @@ func NumberToHumanReadableString(value interface{}, decimals int) string {
 	}
 }
 
-func GetErc20TokensInUnit(numTokens *big.Int, addrDetail addressdetail.AddressDetail) (amount *big.Float, symbol string) {
+func GetErc20TokensInUnit(numTokens *big.Int, addrDetail AddressDetail) (amount *big.Float, symbol string) {
 	tokensFloat := new(big.Float).SetInt(numTokens)
 
 	decimals := int(addrDetail.Decimals)
