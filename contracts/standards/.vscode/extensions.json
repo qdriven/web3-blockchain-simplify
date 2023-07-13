@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "JuanBlanco.solidity",
+        "bierner.markdown-preview-github-styles",
+        "GitHub.copilot",
+        "eamodio.gitlens",
+        "DavidAnson.vscode-markdownlint",
+        "VisualStudioExptTeam.vscodeintellicode",
+        "ms-vscode-remote.remote-containers",
+        "kdcro101.favorites"
+    ],
+    "unwantedRecommendations": []
+}
