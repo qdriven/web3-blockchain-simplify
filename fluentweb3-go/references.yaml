@@ -1,4 +1,4 @@
-repos:
-  utils:
-    - https://github.com/metachris/go-ethutils.git
-    - https://github.com/umbracle/ethgo.git
+eth-tools:
+  - https://github.com/metachris/go-ethutils.git
+  - https://github.com/umbracle/ethgo.git
+  - https://github.com/divergencetech/ethier.git
